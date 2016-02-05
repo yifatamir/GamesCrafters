@@ -29,6 +29,8 @@ def generate_moves(pos, prim = 0):
     else:
         return []
 
+g = Game(100)
+print(solve(g))
 
 
 #initial position
