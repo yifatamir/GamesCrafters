@@ -1,0 +1,49 @@
+GamesCrafters Meeting Notes
+Yifat Amir
+
+~~~1/20/2016~~~
+
+~~~1/22/2016~~~
+
+~~~1/25/2016~~~
+
+~~~1/27/2016~~~
+
+~~~1/29/2016~~~
+
+~~~2/1/2016~~~
+
+~~~2/3/2016~~~
+
+~~~2/5/2016~~~
+	Biggest problem with the C solver was memory
+	Transposition Driven Work Scheduling
+		"like recursion between the machines"
+		need a hash_function(game state) ==> computer rank integer 
+			in order to distribute elements evenly among machines
+	Two player games (vs. one player)
+		dependencies
+		different players on different levels of the game tree
+	HW [DUE MONDAY 2/8 MIDNIGHT]: make a program that will take a list of UNSPECIFIED length and UNSPECIFIED number of processes and filter it based off of some function. Basically make a distributed program that works like Python's filter. (You do not need to worry about Numpy). When you are done, upload to github. Please list your Github user name and the repository you created to this post (piazza).
+
+~~~2/8/2016~~~
+	cs199?
+	take gamescrafters for several semesters
+	200,000 core hours (on the grant)
+	JS front-end, java and python back-end
+	we must pack our "database" really tightly because games have MANY possible states
+	Our types of games:
+		deterministic non-probabilistic games
+		Perfect information, meaning that all information must be available to both players at all times.
+		No chance, which implies no dice, shuffling, or spinning
+		loopy vs non-loops games
+		retroactive analysis
+		strong solvers
+		not combinatorial (do not decompose)
+	games of berkeley
+	shanook (checkers "weak" solver)
+	weak vs strong solver
+	toot and otto: you can force your opponent to make you win on their turn; both can win as a result of one move
+		OOOOOOLALA cool game!!
+
+
